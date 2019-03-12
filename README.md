@@ -1,18 +1,12 @@
+# Step-by-step resume-project done using CI support.
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+##resume-project folder;
 
+In this folder contains all the folders such as ##assets/css and images.
+Also the pages Index,contact and resume.html.
 
-Hi there! Welcome to Cloud9 IDE!
+##assets folder
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
+In this folder contains two different folders ##css that contains the style.css file,
+and ##CV in which contains the sample-cv.pdf. Just a CV sample.
 
-Happy coding!
-The Cloud9 IDE team
