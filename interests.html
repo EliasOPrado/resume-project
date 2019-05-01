@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Interests</title>
-    <link rel="icon" href="#"><!--link for a small incon of the page-->
+    <link rel="icon" href="#">
+    <!--link for a small incon of the page-->
 </head>
 
 <body>
@@ -79,7 +80,7 @@
                             <div class="col-10">
                                 <h4 class="three-reasons-heading uppercase">Lorem Ipsum</h4>
                                 <p>
-                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. In rerum nisi expedita quis atque error tempore fugiat exercitationem molestias at perferendis officiis a aliquid magnam necessitatibus, accusamus ab esse nihil.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. In rerum nisi expedita quis atque error tempore fugiat exercitationem molestias at perferendis officiis a aliquid magnam necessitatibus, accusamus ab esse nihil.
                                     <a href="https://google.com" target="_blank">google</a>
                                 </p>
                             </div>
@@ -199,8 +200,21 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
     <script src="assets/js/maps.js"></script>
     <script>
-    /*var no longer needed as the APIkey was added into the last script source*/
-        /*var APIkey = "AIzaSyBb1UxsONZi12CfnPgwHO3ws5vkLov6_gY";*/
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 3,
+                center: {
+                    lat: 46.619261,
+                    lng: -33.134766
+                }
+            });
+        }
+        
+        var labels = "ABCDEFJKLMNOPQRSTUVWXYZ";
+        
+        var locations = [
+            
+            ];
     </script>
     <!--Marker cluster JS map-->
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
