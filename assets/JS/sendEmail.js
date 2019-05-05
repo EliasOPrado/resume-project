@@ -4,7 +4,7 @@ function sendMail(contactForm) {
         "from_email": contactForm.emailaddress.value,
         "project_request": contactForm.projectsummary.value
     }).then(function(response) {
-            console.log("SECCESS", response);
+            console.log("SUCCESS", response);
         }, function(error) {
             console.log("FAILED", error);
         }
