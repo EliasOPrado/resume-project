@@ -11,3 +11,4 @@ function sendMail(contactForm) {
     );
     return false; //to block from loading a new page without request.
 }
+/*If you need to change which email you will receive projects request or work opportunitis, please check the EmailJs.com*/
